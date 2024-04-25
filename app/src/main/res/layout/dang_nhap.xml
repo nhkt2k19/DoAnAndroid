@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/nen"
+	android:gravity="center"
+	android:orientation="vertical">
+	<!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		android_large___1
+     *	@date 		Wednesday 24th of April 2024 04:54:58 PM
+     *	@title 		ng nhp / ng k
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+
+
+	<RelativeLayout
+		android:id="@+id/frame_4"
+		android:layout_width="333dp"
+		android:layout_height="250dp"
+		android:layout_marginTop="250dp"
+		android:layout_marginBottom="0dp"
+
+		android:background="@drawable/_bg__frame_4_ek1_shape"
+		android:orientation="vertical">
+
+
+		<RelativeLayout
+			android:id="@+id/frame_1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="24dp"
+			android:layout_marginTop="32dp">
+
+			<EditText
+				android:id="@+id/edtEmail"
+				android:layout_width="285dp"
+				android:layout_height="48dp"
+				android:layout_marginStart="40dp"
+				android:layout_marginEnd="30dp"
+				android:layout_marginBottom="50dp"
+				android:background="@drawable/_bg__frame_1_ek1_shape"
+				android:inputType="textEmailAddress" />
+
+			<ImageView
+				android:id="@+id/account_mail"
+				android:layout_width="30.03dp"
+				android:layout_height="31dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="10dp"
+				android:src="@drawable/account_circle" />
+
+		</RelativeLayout>
+
+
+		<RelativeLayout
+			android:id="@+id/frame_2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="24dp"
+			android:layout_marginTop="80dp">
+
+			<EditText
+				android:id="@+id/edtMatKhau"
+				android:layout_width="285dp"
+				android:layout_height="48dp"
+				android:layout_marginStart="40dp"
+				android:layout_marginTop="20dp"
+				android:layout_marginEnd="30dp"
+				android:background="@drawable/_bg__frame_2_ek1_shape"
+				android:inputType="textPassword" />
+
+			<ImageView
+				android:id="@+id/lock"
+				android:layout_width="31dp"
+				android:layout_height="31dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="30dp"
+				android:src="@drawable/lock" />
+
+		</RelativeLayout>
+
+
+		<RelativeLayout
+			android:id="@+id/frame_3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="24dp"
+			android:layout_marginTop="128dp">
+
+			<Button
+				android:id="@+id/btnDangNhap"
+				android:layout_width="285dp"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="40dp"
+				android:layout_marginTop="40dp"
+				android:layout_marginEnd="30dp"
+				android:background="@drawable/_bg__frame_3_ek1_shape"
+				android:text="Đăng nhập" />
+
+
+		</RelativeLayout>
+
+
+	</RelativeLayout>
+
+	<TextView
+		android:id="@+id/tvQuenMatKhau"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_marginEnd="112dp"
+		android:layout_marginBottom="5dp"
+		android:text="Quên mật khẩu"
+		android:textColor="@color/__email__color"
+		android:textSize="15sp"
+		tools:ignore="HardcodedText" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="100dp"
+		android:layout_marginBottom="0dp"
+		android:gravity="center"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="0dp"
+			android:text="Bạn chưa có tài khoản ?"
+			android:textColor="@color/__email__color" />
+
+		<Button
+			android:id="@+id/btnDangKy"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="6dp"
+			android:background="@drawable/_bg__frame_5_ek1_shape"
+			android:text="Đăng ký" />
+	</LinearLayout>
+
+</LinearLayout>

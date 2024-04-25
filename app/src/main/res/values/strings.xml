@@ -1,3 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DoAnAndroid</string>
+	<!-- android_large___1 strings -->
+
+	<string name="app_name">NauCF</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="__email__string">(Email)</string>
+	<string name="__ng_nh_p_string">ng nhp</string>
+	<string name="qu_n_m_t_kh_u___string">Qun mt khu ?</string>
+	<string name="__ng_k__ngay_string">ng k ngay</string>
+	<string name="b_n_ch_a_c__t_i_kho_n___string">Bn cha c ti khon ?</string>
 </resources>
